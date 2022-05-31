@@ -55,9 +55,11 @@
 		5A7DD2D12846C10100859876 /* Restart */ = {
 			isa = PBXGroup;
 			children = (
+				5A7DD2E72846D08200859876 /* Utilities */,
+				5A7DD2E62846D07900859876 /* Views */,
 				5A7DD2E42846CD3200859876 /* Sounds */,
 				5A7DD2D22846C10100859876 /* RestartApp.swift */,
-				5A7DD2D42846C10100859876 /* ContentView.swift */,
+				5A7DD2E52846D06D00859876 /* Screens */,
 				5A7DD2D62846C10300859876 /* Assets.xcassets */,
 				5A7DD2D82846C10300859876 /* Preview Content */,
 			);
@@ -79,6 +81,28 @@
 				5A7DD2E02846CD0C00859876 /* success.m4a */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		5A7DD2E52846D06D00859876 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5A7DD2D42846C10100859876 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5A7DD2E62846D07900859876 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A7DD2E72846D08200859876 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
